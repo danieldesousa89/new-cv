@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.information-column {
+    background-color: black;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.information-column img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-bottom: 18px;
+}
+
+.information-column hr {
+    border: none;
+    border-bottom: 1px solid green;
+    margin-top: 18px;
+
+}
+
+.information-column h3 {
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.information-column li {
+    text-align: left;
+    margin-top: 10px;
+    list-style-type: none;
+
+
+}
+
+.information-column a {
+    text-decoration: none;
+    color: white;
+}
+
+.information-column i {
+    color: green;
+    margin-right: 10px;
+
+}
+
+.education-description {
+    margin-top: 32px;
+}
+
+.education-description p {
+    color: green;
+}
+
+.language .percent {
+    height: 6px;
+    background-color: green;
+    margin-top: 5px;
+    width: 205px;
+}
+
+.language .percent div {
+    height: 6px;
+    background-color: #32CD32;
+    width: 90%;
+}
+
+.language .percent.portuguese div {
+    width: 100%;
+}
+
+.language .percent.spanish div {
+    width: 80%;
+}
+
+.experience-column {
+    background-color: white;
+    padding: 40px;
+    margin: 0px;
+    color: black;
+    text-align: left;
+}
+
+.experience-column h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.experience-column section {
+    margin-bottom: 30px;
+
+}
+
+.experience-column .experience {
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.experience-column a {
+    text-decoration: underline;
+    color: black;
+}
+
+.experience-column .last-date {
+    text-align: right;
+}
+
+@media (min-width: 480px) {
+    .container {
+        display: flex;
+    }
+
+    .information-column img {
+        width: 200px;
+        height: 200px;
+    }
+    .experience-column .experience {
+        display: flex;
+    
+    }
+    .experience-column .experience-date {
+        width: 300px;
+        
+    
+    }
+    
+}
